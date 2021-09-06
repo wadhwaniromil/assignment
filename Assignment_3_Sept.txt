@@ -1,0 +1,15 @@
+Entity: Student
+Attributes: FirstName, LastName, Roll Number, Father's Name, Mother's Name, Standard, Section, Mentor
+Method: Constructor, toString, Getter/Setter(of above all attributes)  
+
+Entity: Class
+Attributes: Standard, Subjects, Number of Students, Assigned Teachers, Timmings, Holiday
+Method: Constructor, toString, Getter/Setter
+
+Entity: Subject
+Attributes: Name, Standard, Number of lectures, Number of chapters
+Methods: Constructor, toString, Getter/Setter
+
+Entity: Teacher
+Attributes: FirstName, LastName, Teacher ID, Father's Name, Mother's Name, Standard Alloted, Section, Subject Alloted, HOD
+Methods: Constructor, toString, Getter/Setter
